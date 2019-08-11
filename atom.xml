@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Smobniar.github.io</id>
     <title>Smobniar</title>
-    <updated>2019-08-11T12:16:49.404Z</updated>
+    <updated>2019-08-11T12:52:13.188Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Smobniar.github.io"/>
     <link rel="self" href="https://Smobniar.github.io/atom.xml"/>
@@ -23,7 +23,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[銃夢 LastOrder 结局]]></title>
+        <title type="html"><![CDATA[ LastOrder]]></title>
         <id>https://Smobniar.github.io/post/chong-meng-lastorder-jie-ju</id>
         <link href="https://Smobniar.github.io/post/chong-meng-lastorder-jie-ju">
         </link>
@@ -33,15 +33,6 @@
 如果有機會的話...</p>
 <p>我希望她能夠代替我履行約定。<br>
 我希望她能夠忘記戰鬥，並且獲得幸福。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[试试下 blog ]]></title>
-        <id>https://Smobniar.github.io/post/shi-shi-xia-blog</id>
-        <link href="https://Smobniar.github.io/post/shi-shi-xia-blog">
-        </link>
-        <updated>2019-08-11T10:52:44.000Z</updated>
-        <content type="html"><![CDATA[<p>看看自己能不能适应这样写东西</p>
 ]]></content>
     </entry>
     <entry>
