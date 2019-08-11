@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Smobniar.github.io</id>
     <title>Smobniar</title>
-    <updated>2019-08-11T11:27:06.020Z</updated>
+    <updated>2019-08-11T11:40:19.132Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Smobniar.github.io"/>
     <link rel="self" href="https://Smobniar.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://Smobniar.github.io/images/avatar.png</logo>
     <icon>https://Smobniar.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Smobniar</rights>
+    <entry>
+        <title type="html"><![CDATA[7:38]]></title>
+        <id>https://Smobniar.github.io/post/738</id>
+        <link href="https://Smobniar.github.io/post/738">
+        </link>
+        <updated>2019-08-11T11:38:46.000Z</updated>
+        <content type="html"><![CDATA[<p>为什么不喜欢夏天？因为内心已经存在夏天了</p>
+<p>爱是永不休止（我认为）</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[銃夢 LastOrder 结局]]></title>
         <id>https://Smobniar.github.io/post/chong-meng-lastorder-jie-ju</id>
