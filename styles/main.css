@@ -1643,3 +1643,12 @@ td {
 .katex .mtable .col-align-r > .vlist {
   text-align: right;
 }
+
+      .post-detail .post .post-content p {
+        font-size: 26px;
+      }
+    
+      a:hover {
+        color: #ffd900;
+      }
+    
