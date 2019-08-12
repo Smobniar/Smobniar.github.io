@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Smobniar.github.io</id>
     <title>Smobniar</title>
-    <updated>2019-08-11T15:54:34.318Z</updated>
+    <updated>2019-08-12T11:35:56.297Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Smobniar.github.io"/>
     <link rel="self" href="https://Smobniar.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://Smobniar.github.io/images/avatar.png</logo>
     <icon>https://Smobniar.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Smobniar</rights>
+    <entry>
+        <title type="html"><![CDATA[ai。。]]></title>
+        <id>https://Smobniar.github.io/post/ai</id>
+        <link href="https://Smobniar.github.io/post/ai">
+        </link>
+        <updated>2019-08-12T11:32:11.000Z</updated>
+        <content type="html"><![CDATA[<p>做封面的时候经常觉得自己不太行，做了一张新看舒服没多久又会觉得不好，也许是要求过高导致的不自信，比如今天，不过还是很不错的做出来了<img src="https://Smobniar.github.io/post-images/1565609742641.jpg" alt=""></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[7:38]]></title>
         <id>https://Smobniar.github.io/post/738</id>
