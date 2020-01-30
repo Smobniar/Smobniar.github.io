@@ -2,14 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Smobniar.github.io</id>
     <title>Smobniar</title>
-    <updated>2019-10-23T12:30:05.236Z</updated>
+    <updated>2020-01-30T11:20:18.780Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Smobniar.github.io"/>
     <link rel="self" href="https://Smobniar.github.io/atom.xml"/>
     <subtitle>棉花糖小子。</subtitle>
     <logo>https://Smobniar.github.io/images/avatar.png</logo>
     <icon>https://Smobniar.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Smobniar</rights>
+    <rights>All rights reserved 2020, Smobniar</rights>
+    <entry>
+        <title type="html"><![CDATA[7:17]]></title>
+        <id>https://Smobniar.github.io/post/717</id>
+        <link href="https://Smobniar.github.io/post/717">
+        </link>
+        <updated>2020-01-30T11:17:24.000Z</updated>
+        <content type="html"><![CDATA[<p>想找朋友们聊天，又感到他们也许正忙着，打扰了不好，转念一想没准朋友们也是这么想的，所以才不怎么来找我说话。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8:14]]></title>
+        <id>https://Smobniar.github.io/post/814</id>
+        <link href="https://Smobniar.github.io/post/814">
+        </link>
+        <updated>2019-10-25T12:14:36.000Z</updated>
+        <content type="html"><![CDATA[<p>打算把能把很多的「我不知道」，变成「我知道」<br>
+希望能成为下定了某种决心的男人啊</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[敌人就在本能寺！]]></title>
         <id>https://Smobniar.github.io/post/di-ren-jiu-zai-ben-neng-si</id>
@@ -18,7 +37,7 @@
         <updated>2019-10-22T00:10:25.000Z</updated>
         <content type="html"><![CDATA[<p>這段時間的事情還挺多，焦慮的情緒還是出來了，嘛~果然還是要把想做的事情篩掉一部分，把注意力集中到非常非常想做的事情上，建了 Blog 哪有不更新的道理？！boo-ya！信長被我打倒了，就是這樣！！</p>
 <p>附帶一張給掘火做的封面圖，昨天不到一個小時就完成了，倒是不知道胡凌雲什麼時候能翻譯出來。<br>
-<img src="https://Smobniar.github.io/post-images/1571832726682.jpg" alt=""></p>
+<img src="https://Smobniar.github.io/post-images/1571832726682.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
@@ -56,7 +75,7 @@
 ·这几天有朋友们问我怎么样，我就说我很好，不过确实还好<br>
 ·明天会去医院看望长辈吧，累累<br>
 ·打开波德莱尔翻了翻，翻到了这句<br>
-<img src="https://Smobniar.github.io/post-images/1567504859592.jpeg" alt=""><br>
+<img src="https://Smobniar.github.io/post-images/1567504859592.jpeg" alt="" loading="lazy"><br>
 ·睡吧，我的心；傻乎乎的</p>
 ]]></content>
     </entry>
@@ -75,7 +94,7 @@
         <link href="https://Smobniar.github.io/post/921">
         </link>
         <updated>2019-08-31T13:40:59.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Smobniar.github.io/post-images/1567258934459.png" alt=""></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Smobniar.github.io/post-images/1567258934459.png" alt="" loading="lazy"></figure>
 <p>一边播放的不乱苦雑派的爆笑装神弄鬼现场，一边着打响指摇摇摆摆的去小商店买可乐喝，产生了特别多的快乐。</p>
 ]]></content>
     </entry>
@@ -94,29 +113,8 @@
         <link href="https://Smobniar.github.io/post/549">
         </link>
         <updated>2019-08-30T09:49:50.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Smobniar.github.io/post-images/1567158600559.jpg" alt=""></figure>
-<figure data-type="image" tabindex="2"><img src="https://Smobniar.github.io/post-images/1567158608286.jpg" alt=""></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7:12]]></title>
-        <id>https://Smobniar.github.io/post/712</id>
-        <link href="https://Smobniar.github.io/post/712">
-        </link>
-        <updated>2019-08-22T11:12:11.000Z</updated>
-        <content type="html"><![CDATA[<p>很粗糙的勾了一张图，为自己想要的眼镜<br>
-<img src="https://Smobniar.github.io/post-images/1566472388215.jpg" alt=""></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用正确词汇]]></title>
-        <id>https://Smobniar.github.io/post/xue-hui-shi-yong-zheng-que-ci-hui-lai-biao-da</id>
-        <link href="https://Smobniar.github.io/post/xue-hui-shi-yong-zheng-que-ci-hui-lai-biao-da">
-        </link>
-        <updated>2019-08-20T07:21:29.000Z</updated>
-        <content type="html"><![CDATA[<p>魔法上网❌<br>
-科学上网❌<br>
-正常上网✅</p>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Smobniar.github.io/post-images/1567158600559.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://Smobniar.github.io/post-images/1567158608286.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
