@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Smobniar.github.io</id>
     <title>Smobniar</title>
-    <updated>2020-01-30T11:57:19.177Z</updated>
+    <updated>2020-10-31T10:02:02.795Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Smobniar.github.io"/>
     <link rel="self" href="https://Smobniar.github.io/atom.xml"/>
@@ -11,9 +11,20 @@
     <icon>https://Smobniar.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Smobniar</rights>
     <entry>
+        <title type="html"><![CDATA[羽良多平吉和 DAVID BOWIE ]]></title>
+        <id>https://Smobniar.github.io/post/yu-liang-duo-ping-ji-he-david-bowie/</id>
+        <link href="https://Smobniar.github.io/post/yu-liang-duo-ping-ji-he-david-bowie/">
+        </link>
+        <updated>2020-10-31T10:00:39.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://Smobniar.github.io/post-images/1604138473631.jpg" alt="" loading="lazy"><br>
+「地点是东京青山的摄影工作室。 1980 年，秋天转至冬天的第一天天，我第一次遇见了 DAVID BOWIE。 承蒙摄影师锄田正义先生的邀请，当天，我一边抑制着高涨的心情一边前往涩谷。 井头线的车内比以往任何时候都明亮。」<br>
+（Bowie 右后方白色衣服是羽良多平吉）</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[7:17]]></title>
-        <id>https://Smobniar.github.io/post/717</id>
-        <link href="https://Smobniar.github.io/post/717">
+        <id>https://Smobniar.github.io/post/717/</id>
+        <link href="https://Smobniar.github.io/post/717/">
         </link>
         <updated>2020-01-30T11:17:24.000Z</updated>
         <content type="html"><![CDATA[<p>·想找朋友们聊天，又感到他们也许正忙着，打扰了不好，转念一想没准朋友们也是这么想，所以才不怎么来找我说话的，再次翻出 blog 来自言自语了</p>
@@ -31,8 +42,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[8:14]]></title>
-        <id>https://Smobniar.github.io/post/814</id>
-        <link href="https://Smobniar.github.io/post/814">
+        <id>https://Smobniar.github.io/post/814/</id>
+        <link href="https://Smobniar.github.io/post/814/">
         </link>
         <updated>2019-10-25T12:14:36.000Z</updated>
         <content type="html"><![CDATA[<p>打算把能把很多的「我不知道」，变成「我知道」<br>
@@ -41,8 +52,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[敌人就在本能寺！]]></title>
-        <id>https://Smobniar.github.io/post/di-ren-jiu-zai-ben-neng-si</id>
-        <link href="https://Smobniar.github.io/post/di-ren-jiu-zai-ben-neng-si">
+        <id>https://Smobniar.github.io/post/di-ren-jiu-zai-ben-neng-si/</id>
+        <link href="https://Smobniar.github.io/post/di-ren-jiu-zai-ben-neng-si/">
         </link>
         <updated>2019-10-22T00:10:25.000Z</updated>
         <content type="html"><![CDATA[<p>這段時間的事情還挺多，焦慮的情緒還是出來了，嘛~果然還是要把想做的事情篩掉一部分，把注意力集中到非常非常想做的事情上，建了 Blog 哪有不更新的道理？！boo-ya！信長被我打倒了，就是這樣！！</p>
@@ -52,8 +63,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[7:48]]></title>
-        <id>https://Smobniar.github.io/post/748</id>
-        <link href="https://Smobniar.github.io/post/748">
+        <id>https://Smobniar.github.io/post/748/</id>
+        <link href="https://Smobniar.github.io/post/748/">
         </link>
         <updated>2019-10-21T23:49:02.000Z</updated>
         <content type="html"><![CDATA[<p>秋天是降温的季节，这里的秋天说冷也不冷，但是能够以此为借口多穿些衣服，就让人由衷的感到开心。</p>
@@ -63,8 +74,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[12:43]]></title>
-        <id>https://Smobniar.github.io/post/1243</id>
-        <link href="https://Smobniar.github.io/post/1243">
+        <id>https://Smobniar.github.io/post/1243/</id>
+        <link href="https://Smobniar.github.io/post/1243/">
         </link>
         <updated>2019-09-08T16:43:58.000Z</updated>
         <content type="html"><![CDATA[<p>哼，想了太多开心的事情一下子睡不着<br>
@@ -73,8 +84,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[5:50]]></title>
-        <id>https://Smobniar.github.io/post/550</id>
-        <link href="https://Smobniar.github.io/post/550">
+        <id>https://Smobniar.github.io/post/550/</id>
+        <link href="https://Smobniar.github.io/post/550/">
         </link>
         <updated>2019-09-03T09:50:20.000Z</updated>
         <content type="html"><![CDATA[<p>一整天都没有做什么事</p>
@@ -91,8 +102,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[9:52]]></title>
-        <id>https://Smobniar.github.io/post/952</id>
-        <link href="https://Smobniar.github.io/post/952">
+        <id>https://Smobniar.github.io/post/952/</id>
+        <link href="https://Smobniar.github.io/post/952/">
         </link>
         <updated>2019-09-01T01:52:25.000Z</updated>
         <content type="html"><![CDATA[<p>这几个月看的东西粗略估计有上万张，同时也收藏了快五千张的图，我正在考虑要不要全部打包放到网盘分享，如果有人一张张看完，应该会给个人审美和现代艺术知识带来很大提升。</p>
@@ -100,8 +111,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[9:21]]></title>
-        <id>https://Smobniar.github.io/post/921</id>
-        <link href="https://Smobniar.github.io/post/921">
+        <id>https://Smobniar.github.io/post/921/</id>
+        <link href="https://Smobniar.github.io/post/921/">
         </link>
         <updated>2019-08-31T13:40:59.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Smobniar.github.io/post-images/1567258934459.png" alt="" loading="lazy"></figure>
@@ -110,21 +121,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[blog 的 RSS]]></title>
-        <id>https://Smobniar.github.io/post/blog-de-rss</id>
-        <link href="https://Smobniar.github.io/post/blog-de-rss">
+        <id>https://Smobniar.github.io/post/blog-de-rss/</id>
+        <link href="https://Smobniar.github.io/post/blog-de-rss/">
         </link>
         <updated>2019-08-30T12:59:34.000Z</updated>
         <content type="html"><![CDATA[<p>不知道为什么识别不出，可以手动添加 https://smobniar.github.io/atom.xml</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5:49]]></title>
-        <id>https://Smobniar.github.io/post/549</id>
-        <link href="https://Smobniar.github.io/post/549">
-        </link>
-        <updated>2019-08-30T09:49:50.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Smobniar.github.io/post-images/1567158600559.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="2"><img src="https://Smobniar.github.io/post-images/1567158608286.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
