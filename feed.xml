@@ -92,19 +92,20 @@
 <p>一边播放的不乱苦雑派的爆笑装神弄鬼现场，一边着打响指摇摇摆摆的去小商店买可乐喝，产生了特别多的快乐。</p>]]></description>
     </item>
     <item>
-      <title>blog 的 RSS</title>
-      <link>https://smobniar.github.io/post/blog-de-rss/</link>
-      <guid isPermaLink="true">https://smobniar.github.io/post/blog-de-rss/</guid>
-      <pubDate>Fri, 30 Aug 2019 20:59:34 +0800</pubDate>
-      <description><![CDATA[<p>不知道为什么识别不出，可以手动添加 /feed.xml</p>]]></description>
-    </item>
-    <item>
       <title>5:49</title>
       <link>https://smobniar.github.io/post/549/</link>
       <guid isPermaLink="true">https://smobniar.github.io/post/549/</guid>
       <pubDate>Fri, 30 Aug 2019 17:50:26 +0800</pubDate>
       <description><![CDATA[<figure data-type="image" tabindex="1"><img src="https://smobniar.github.io/post-images/1567158600559.jpg" alt="" loading="lazy"></figure>
 <figure data-type="image" tabindex="2"><img src="https://smobniar.github.io/post-images/1567158608286.jpg" alt="" loading="lazy"></figure>]]></description>
+    </item>
+    <item>
+      <title>7:12</title>
+      <link>https://smobniar.github.io/post/712/</link>
+      <guid isPermaLink="true">https://smobniar.github.io/post/712/</guid>
+      <pubDate>Thu, 22 Aug 2019 19:13:14 +0800</pubDate>
+      <description><![CDATA[<p>很粗糙的勾了一张图，为自己想要的眼镜<br>
+<img src="https://smobniar.github.io/post-images/1566472388215.jpg" alt="" loading="lazy"></p>]]></description>
     </item>
   </channel>
 </rss>
