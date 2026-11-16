@@ -297,6 +297,20 @@
 	}
 }
 
+/* == 段首缩进改为「空一格」==
+   原作 u-Typography-articles.css 里写作 p { text-indent: 3rem }，即缩进三个字宽，
+   观感上是空四格。这里按站主要求改成缩进一个字宽（1rem = 20px）。
+   原作对首段（p:first-child、标题后第一段等）设了 text-indent: 0 !important，
+   那是「首段不缩进」的排版惯例，保持不动。 */
+article p,
+#mainContent p {
+	text-indent: 1rem;
+}
+article .forcedIndentParagraph,
+#mainContent .forcedIndentParagraph {
+	text-indent: 1rem !important;
+}
+
 /* == 字体回退修正 ==
    u-Typography 原版用 @font-face + local() 抓取本机安装的 Source Sans Pro /
    Source Serif Pro。部分 macOS 上 local() 会命中字形表损坏的 .otf 变体，
