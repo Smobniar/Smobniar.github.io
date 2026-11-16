@@ -1,0 +1,308 @@
+/* ————————————————————————————————————————————————
+   u-Typography 主题（Gridea Pro 移植版）—— 站点适配补充样式
+   排版与交互样式来自「字无字 ú–Typography」
+   Copyright (c) [2023] [Zhang Qingtian (张擎天) | u-typography.blog]
+   按木兰宽松许可证（第 2 版）授权，http://license.coscl.org.cn/MulanPSL2
+   本文件仅包含为博客场景新增的少量样式。
+   ———————————————————————————————————————————————— */
+
+/* == 站点字标（代替原作的字标图片）== */
+.logotype-text {
+	display: block;
+	position: relative;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	transform: rotate(180deg);
+	height: 100%;
+	margin: 0 auto;
+	font-family: var(--font-song);
+	font-weight: 700;
+	font-size: 1.05rem;
+	line-height: 1.4;
+	letter-spacing: 0.14em;
+	color: var(--colour-dark-grey-1);
+	text-align: center;
+	user-select: none;
+	transition: color 200ms ease-in-out;
+}
+#logotype:hover .logotype-text {
+	color: var(--colour-1);
+}
+
+/* 首页顶栏的横向字标 */
+.logotype-text-index {
+	display: inline-block;
+	position: relative;
+	top: 14px;
+	font-family: var(--font-song);
+	font-weight: 700;
+	font-size: 1.1rem;
+	letter-spacing: 0.18em;
+	line-height: 32px;
+	height: 32px;
+	color: var(--colour-dark-grey-1);
+	user-select: none;
+	transition: color 200ms ease-in-out;
+}
+.logotype-text-index:hover {
+	color: var(--colour-1);
+}
+
+/* == 返回首页按钮（用文字符号代替原作图标）== */
+#backArrowGlyph,
+#homeGlyph {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-family: var(--font-song);
+	font-size: 1.05rem;
+	color: var(--colour-dark-grey-1);
+	transition: all 300ms ease-out;
+}
+#backArrowGlyph {
+	opacity: 1;
+	transform: translateX(0px);
+}
+#homeGlyph {
+	opacity: 0;
+	transform: translateX(-2px);
+}
+@media (hover: hover) {
+	#backToHomePage:hover #backArrowGlyph {
+		opacity: 0;
+		transform: translateX(5px);
+		transition: transform 200ms ease-in, opacity 200ms ease-in;
+	}
+	#backToHomePage:hover #homeGlyph {
+		opacity: 1;
+		transform: translateX(0px);
+		transition: all 300ms ease-out;
+		transition-delay: 100ms;
+	}
+}
+@media (hover: none) {
+	#backArrowGlyph {
+		display: none;
+	}
+	#homeGlyph {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+/* == 首页顶栏的目录按钮（用三条线代替原作图标）== */
+#threeLines-1,
+#threeLines-2,
+#threeLines-3 {
+	display: block;
+	position: absolute;
+	left: 10px;
+	width: 40px;
+	height: 1px;
+	background-color: var(--colour-dark-grey-1);
+	transform-origin: center center;
+}
+#threeLines-1 {
+	top: 16px;
+}
+#threeLines-2 {
+	top: 24px;
+}
+#threeLines-3 {
+	top: 32px;
+}
+#contentMenu-Button:hover #threeLines-1,
+#contentMenu-Button:hover #threeLines-2,
+#contentMenu-Button:hover #threeLines-3 {
+	animation: threeLinesHover 200ms ease-in-out;
+}
+#contentMenu-Button:hover #threeLines-2 {
+	animation-delay: 100ms;
+}
+#contentMenu-Button:hover #threeLines-3 {
+	animation-delay: 200ms;
+}
+@keyframes threeLinesHover {
+	0%,
+	100% {
+		transform: scaleX(100%);
+	}
+	50% {
+		transform: scaleX(60%);
+	}
+}
+
+/* == 文章列表中的日期 == */
+.post-date {
+	display: block;
+	font-family: var(--font-sans);
+	font-weight: 400;
+	font-size: 0.7rem;
+	line-height: 1.4rem;
+	letter-spacing: 0.05em;
+	color: var(--colour-middle-grey-1);
+	font-variant: proportional-nums;
+	margin-bottom: 0.25rem;
+}
+
+/* 空列表提示 */
+.emptyHint {
+	display: block;
+	width: 30rem;
+	margin: 4rem auto;
+	text-align: center;
+	font-family: var(--font-song);
+	font-weight: 600;
+	font-size: 1rem;
+	color: var(--colour-middle-grey-1);
+}
+
+/* == 分页 == */
+.pagination-container {
+	display: block;
+	width: 30rem;
+	margin: 5rem auto 0;
+	text-align: center;
+	font-family: var(--font-song);
+	font-weight: 600;
+	font-size: 0.8rem;
+}
+.pagination-container a {
+	display: inline-block;
+	margin: 0 0.75rem;
+	padding: 0.25rem 0.75rem;
+	border-radius: 1rem;
+	color: var(--colour-dark-grey-1);
+	text-decoration: none;
+	transition: all 200ms ease-in-out;
+}
+.pagination-container a:hover {
+	color: var(--colour-1);
+	background-color: var(--colour-button-hover);
+}
+.pagination-container a:active {
+	background-color: var(--colour-button-active);
+}
+
+/* == 文章页尾部导航（上一篇 / 下一篇）== */
+.postNav {
+	display: block;
+	width: 36rem;
+	margin: 4rem auto 0;
+	font-family: var(--font-song);
+	font-weight: 600;
+	font-size: 0.85rem;
+	line-height: 1.6rem;
+}
+.postNav a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	background: linear-gradient(135deg, var(--colour-2), var(--colour-2)) no-repeat;
+	background-position: left 0 bottom 0;
+	background-size: 0% 0%;
+	padding: 0.1em 0;
+	transition: background-size 100ms ease-in-out;
+}
+.postNav a:hover {
+	background-size: 100% 10%;
+}
+.postNav .postNavLabel {
+	font-family: var(--font-hei);
+	font-weight: 400;
+	font-size: 0.7rem;
+	color: var(--colour-middle-grey-1);
+	margin-right: 0.75rem;
+}
+.postNav .postNavNext {
+	margin-top: 0.75rem;
+}
+
+/* == 页脚署名区 == */
+.siteFooter {
+	font-family: var(--font-hei);
+	font-weight: 400;
+	font-size: 0.6rem;
+	line-height: 1rem;
+	width: 30rem;
+	margin: 0 auto 4rem;
+	text-align: left;
+}
+.siteFooter small {
+	display: block;
+}
+.siteFooter a {
+	text-decoration: none;
+	color: black;
+	background: linear-gradient(135deg, var(--colour-2), var(--colour-2)) no-repeat;
+	padding: 0.1em 0;
+	background-size: 100% 10%;
+	background-position: left 0 bottom 0;
+	transition: all 100ms ease-in-out;
+}
+.siteFooter a:hover {
+	background: linear-gradient(135deg, var(--colour-3), var(--colour-2)) no-repeat;
+	background-size: 100% 100%;
+	background-position: left 0 bottom 0;
+}
+.siteFooter .footerCredit {
+	margin-top: 3rem;
+	font-size: 0.55rem;
+	line-height: 1.5em;
+	color: var(--colour-middle-grey-1);
+	text-align: left;
+}
+.siteFooter .footerCredit a {
+	color: var(--colour-middle-grey-1);
+}
+
+/* == 404 页 == */
+#notFound {
+	display: block;
+	width: 30rem;
+	margin: 8rem auto;
+	text-align: center;
+	font-family: var(--font-song);
+}
+#notFound h1 {
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+#notFound p {
+	font-family: var(--font-hei);
+	font-size: 0.85rem;
+	line-height: 1.8rem;
+}
+
+/* == 窄屏（≤1040px）竖栏变成顶部横条时的字标适配 ==
+   原作的 #logo 在窄屏会变成横向 32px 高的图片居中显示，
+   这里把竖排文字版字标改成同样的横向排布。 */
+@media (max-width: 1040px) {
+	.logotype-text {
+		writing-mode: horizontal-tb;
+		transform: none;
+		height: 60px;
+		line-height: 60px;
+		width: fit-content;
+		margin: 0 auto;
+		font-size: 1rem;
+		letter-spacing: 0.18em;
+		white-space: nowrap;
+		text-align: center;
+	}
+}
+
+/* == 字体回退修正 ==
+   u-Typography 原版用 @font-face + local() 抓取本机安装的 Source Sans Pro /
+   Source Serif Pro。部分 macOS 上 local() 会命中字形表损坏的 .otf 变体，
+   导致数字与西文变成乱码，因此这里把 Google Fonts 的 webfont 族名排到前面：
+   装有本地字体时仍然优先用本地，没有时用网页字体，两者都正常。 */
+:root {
+	--font-sans: "Source Sans Pro", "SANS", sans-serif;
+	--font-serif: "Source Serif Pro", "SERIF", serif;
+}

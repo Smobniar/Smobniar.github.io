@@ -1,0 +1,608 @@
+/* Copyright (c) [2023] [Zhang Qingtian (张擎天) | u-Typography.blog]
+[u-typography.css] is licensed under Mulan PSL v2.
+You can use this software according to the terms and conditions of the Mulan PSL v2.
+You may obtain a copy of Mulan PSL v2 at:
+		http://license.coscl.org.cn/MulanPSL2
+THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+See the Mulan PSL v2 for more details. */
+
+/* 下面字体的名称要按照 “full font name” 属性来写 */
+
+/* 【中文】 */
+
+/* ==黑体== */
+
+/* 正文黑体 */
+@font-face {
+	font-family: "HEI";
+	src: local("HYQiHei 55S"), local("HYQiHei-55S Book"), local("HYQiHei 60S"),
+		local("HYQiHei-60S Regular"), local("HarmonyOS Sans SC"),
+		local("MiSans Regular"), local("Source Han Sans SC"),
+		local("Noto Sans SC"), local("Source Han Sans CN"); /*汉仪旗黑分别是新版和旧版的写法*/
+	font-weight: 400;
+}
+/* 标题黑体 */
+@font-face {
+	font-family: "HEI";
+	src: local("HYQiHei 75S"), local("HYQiHei-75S Bold"), local("HYQiHei 70S"),
+		local("HYQiHei-70S DemiBold"), local("HarmonyOS Sans SC Bold"),
+		local("HarmonyOS Sans SC Medium"), local("MiSans Demibold"),
+		local("MiSans Semibold"), local("Source Han Sans SC Bold"),
+		local("Noto Sans SC Bold"), local("Source Han Sans CN Bold");
+	font-weight: 700;
+}
+/* 正文标点黑体 */
+@font-face {
+	font-family: "HEI-BiaoDian";
+	src: local("Source Han Sans SC"), local("Noto Sans SC"),
+		local("Source Han Sans CN");
+	font-weight: 400;
+}
+/* 标题标点黑体 */
+@font-face {
+	font-family: "HEI-BiaoDian";
+	src: local("Source Han Sans SC Bold"), local("Noto Sans SC Bold"),
+		local("Source Han Sans CN Bold");
+	font-weight: 700;
+}
+
+/* ==宋体== */
+
+/* 正文宋体 */
+@font-face {
+	font-family: "SONG";
+	src: local("Source Han Serif SC Semibold"), local("Noto Serif SC Semibold"),
+		local("Source Han Serif CN Semibold"), local("FZYaSongGBK");
+	font-weight: 600;
+}
+/* 标题宋体 */
+@font-face {
+	font-family: "SONG";
+	src: local("Source Han Serif SC Bold"), local("Noto Serif SC Bold"),
+		local("Source Han Serif CN Bold"), local("FZYaSong-B-GBK"),
+		local("FZYaSongGBK Bold");
+	font-weight: 700;
+}
+/* 正文标点宋体 */
+@font-face {
+	font-family: "SONG-BiaoDian";
+	src: url("../fonts/ZhongwenBiaodian01-Regular.woff2") format("woff2"),
+		local("Source Han Serif SC Semibold"), local("Noto Serif SC Semibold"),
+		local("Source Han Serif CN Semibold");
+	font-weight: 600;
+}
+/* 标题标点宋体 */
+@font-face {
+	font-family: "SONG-BiaoDian";
+	src: url("../fonts/ZhongwenBiaodian01-Bold.woff2") format("woff2"),
+		local("Source Han Serif SC Bold"), local("Noto Serif SC Bold"),
+		local("Source Han Serif CN Bold");
+	font-weight: 700;
+}
+
+/* 【西文】 */
+
+/* ==无衬线体== */
+
+/* 正文无衬线正体 */
+@font-face {
+	font-family: "SANS";
+	src: local("Source Sans Pro");
+	font-weight: 400;
+	font-style: normal;
+}
+/* 正文无衬线斜体 */
+@font-face {
+	font-family: "SANS";
+	src: local("Source Sans Pro Italic");
+	font-weight: 400;
+	font-style: italic;
+}
+/* 标题无衬线正体 */
+@font-face {
+	font-family: "SANS";
+	src: local("Source Sans Pro Semibold");
+	font-weight: 600;
+	font-style: normal;
+}
+/* 标题无衬线斜体 */
+@font-face {
+	font-family: "SANS";
+	src: local("Source Sans Pro Semibold Italic");
+	font-weight: 600;
+	font-style: italic;
+}
+
+/* ==衬线体== */
+
+/* 正文衬线正体 */
+@font-face {
+	font-family: "SERIF";
+	src: local("Source Serif Pro");
+	font-weight: 400;
+	font-style: normal;
+}
+/* 正文衬线斜体 */
+@font-face {
+	font-family: "SERIF";
+	src: local("Source Serif Pro Italic");
+	font-weight: 400;
+	font-style: italic;
+}
+/* 标题衬线正体 */
+@font-face {
+	font-family: "SERIF";
+	src: local("Source Serif Pro Semibold");
+	font-weight: 600;
+	font-style: normal;
+}
+/* 标题衬线斜体 */
+@font-face {
+	font-family: "SERIF";
+	src: local("Source Serif Pro Semibold Italic");
+	font-weight: 600;
+	font-style: italic;
+}
+/* ？ */
+/* @font-face {
+	font-family: "SERIF";
+	src: local("Source Serif Pro Bold");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SERIF";
+	src: local("Source Serif Pro Bold Italic");
+	font-weight: 700;
+	font-style: italic;
+} */
+
+/* ==代码等宽体== */
+
+@font-face {
+	font-family: "CODE";
+	src: local("Source Code Pro Medium");
+	font-style: normal;
+}
+@font-face {
+	font-family: "CODE";
+	src: local("Source Code Pro Medium Italic");
+	font-style: italic;
+}
+
+/* ==特殊字体== */
+
+@font-face {
+	font-family: "TeShuBiaoDian";
+	src: url("../fonts/BiaoDianFuHao.woff2") format("woff2");
+}
+
+
+:root {
+	--colour-paper: rgb(245, 244, 242);
+	--colour-link-active-background: rgb(206, 189, 166);
+	--colour-1: rgb(188, 171, 147);
+	--colour-1-5: rgb(207, 193, 172);
+	--colour-2: rgb(228, 216, 198);
+	--colour-3: rgb(239, 231, 216);
+	--colour-button-hover: rgba(243, 230, 200, 0.5);
+	--colour-button-hover-transparent: rgba(243, 230, 200, 0);
+	--colour-button-active: rgba(220, 207, 179, 0.5);
+	--colour-switcher-hover: rgba(243, 230, 200, 0.3);
+	--colour-switcher-active: rgba(220, 207, 179, 0.5);
+	/* --colour-bar-active: rgb(241, 234, 225); */
+	--colour-changeType-unselected: rgb(70, 70, 70);
+	--colour-changeType-selected: rgb(190, 176, 156);
+	--colour-changeType-hover: rgb(123, 117, 106);
+	--colour-changeType-button-hover: rgb(242, 237, 228);
+	--colour-changeType-button-active: rgb(237, 230, 215);
+	--colour-sidenote-mark: rgb(195, 67, 56);
+	--colour-footnote-mark: rgb(177, 132, 69);
+	--colour-code: rgb(230, 227, 226);
+	--colour-shadow: rgb(216, 208, 197);
+	--colour-dark-grey-1: rgb(46, 46, 46);
+	--colour-dark-grey-2: #444444;
+	--colour-middle-grey-1: rgb(123, 123, 123);
+	--colour-light-grey-1: #bbb;
+	--colour-figure-border: #cdcdcd;
+	--font-hei: "HEI", "Noto Sans SC", sans-serif;
+	--font-hei-biaodian: "HEI-BiaoDian", "Noto Sans SC";
+	--font-song: "SONG", "Noto Serif SC", serif;
+	--font-song-biaodian: "SONG-Biaodian", "Noto Serif SC";
+	--font-sans: "SANS", "Source Sans Pro", sans-serif;
+	--font-serif: "SERIF", "Source Serif Pro", serif;
+	--font-code: "CODE", "Source Code Pro", "HEI", "Noto Sans SC", monospace;
+}
+
+html {
+	box-sizing: border-box;
+	display: block;
+	font-size: 20px;
+	line-height: 2;
+	font-family: var(--font-hei);
+	tab-size: 3rem;
+	text-justify: auto;
+	text-rendering: geometricPrecision;
+	background-color: var(--colour-paper);
+	/* -webkit-text-size-adjust: none; */
+	font-synthesis: none;
+	scroll-behavior: smooth;
+	text-spacing-trim: space-all;
+	/* vertical-align: bottom; */
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	/* vertical-align: inherit; */
+}
+
+/* 基本属性 */
+
+
+
+
+
+
+
+
+#changeTypeMenu-Button {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	cursor: pointer;
+	border-radius: 20px;
+	background-color: rgb(174, 157, 133, 0);
+	transition: all 200ms ease-in-out;
+}
+#changeTypeMenu-Button:hover {
+	background-color: var(--colour-button-hover);
+	transition: all 200ms ease-in-out;
+}
+#changeTypeMenu-Button:active {
+	background-color: var(--colour-button-active);
+	transition-duration: 10ms;
+}
+#changeTypeMenu-ButtonSVG {
+	height: 4px;
+	/* fill: var(--colour-1-5); */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -2px 0 0 -9px;
+	fill: black;
+	/* transform: rotate(90deg); */
+	transition: fill 200ms ease-in-out;
+}
+#changeTypeMenu-Button:hover #changeTypeMenu-ButtonSVG {
+	transition: fill 200ms ease-in-out;
+	fill: var(--colour-1);
+}
+
+#changeTypeMenu {
+
+	background-color: black;
+	position: fixed;
+	border-radius: 20px;
+	display: block;
+	/* left: 15px; */
+	/* bottom: 110px; */
+	/* visibility: hidden; */
+	/* opacity: 1; */
+	/*这些用HTML和JavaScript来控制*/
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: 100ms;
+	/* font-size: 0.6rem; */
+	text-align: center;
+	line-height: 0;
+	box-shadow: 0px 0px 10px var(--colour-shadow);
+}
+/* #changeTypeMenu-Margin{
+	position: absolute;
+	height: 40px;
+	width: 420;
+	margin: 0 auto;
+} */
+.changeTypeMenu-Section {
+	position: relative;
+	/* line-height: 1em; */
+	color: rgb(208, 208, 208);
+}
+.changeTypeMenu-Seperator {
+	background-color: rgb(114, 114, 114);
+}
+.changeTypeMenu-Caption {
+	position: relative;
+	top: -1px;
+	height: 12px;
+	font-size: 0.6rem;
+	line-height: 12px;
+}
+.changeTypeMenu-Options {
+	position: relative;
+}
+#changeTypeMenu-BiaoTi-SONG,
+#changeTypeMenu-BiaoTi-HEI,
+#changeTypeMenu-ZhengWen-SONG,
+#changeTypeMenu-ZhengWen-HEI,
+#changeTypeMenu-BianZhu-SONG,
+#changeTypeMenu-BianZhu-HEI,
+#changeTypeMenu-FenLei-SONG,
+#changeTypeMenu-FenLei-HEI,
+#changeTypeMenu-ZhuTi-SONG,
+#changeTypeMenu-ZhuTi-HEI,
+#changeTypeMenu-FuTi-SONG,
+#changeTypeMenu-FuTi-HEI {
+	position: relative;
+	height: 25px;
+	width: 25px;
+	border-radius: 12.5px;
+	background-color: var(--colour-changeType-unselected);
+	/* margin: 0.25rem auto; */
+	/* padding: 5px; */
+	font-size: 0.75rem;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: 100ms;
+}
+#changeTypeMenu-BiaoTi-SONG,
+#changeTypeMenu-ZhengWen-SONG,
+#changeTypeMenu-BianZhu-SONG,
+#changeTypeMenu-FenLei-SONG,
+#changeTypeMenu-ZhuTi-SONG,
+#changeTypeMenu-FuTi-SONG{
+	/* font-family: var(--font-song); */
+	font-family: "Source Han Serif SC", "Source Han Serif CN", "Noto Serif SC",
+		serif;
+	font-weight: 600;
+}
+#changeTypeMenu-BiaoTi-SONG,
+#changeTypeMenu-ZhengWen-SONG,
+#changeTypeMenu-BianZhu-SONG,
+#changeTypeMenu-FenLei-SONG,
+#changeTypeMenu-ZhuTi-SONG,
+#changeTypeMenu-FuTi-SONG {
+	/* font-family: var(--font-hei); */
+	font-family: "Source Han Sans SC", "Source Han Sans CN", "Noto Sans SC",
+		sans-serif;
+	font-weight: 400;
+}
+#changeTypeMenu-BiaoTi-SONG:hover,
+#changeTypeMenu-BiaoTi-HEI:hover,
+#changeTypeMenu-ZhengWen-SONG:hover,
+#changeTypeMenu-ZhengWen-HEI:hover,
+#changeTypeMenu-BianZhu-SONG:hover,
+#changeTypeMenu-BianZhu-HEI:hover,
+#changeTypeMenu-FenLei-SONG:hover,
+#changeTypeMenu-FenLei-HEI:hover,
+#changeTypeMenu-ZhuTi-SONG:hover,
+#changeTypeMenu-ZhuTi-HEI:hover,
+#changeTypeMenu-FuTi-SONG:hover,
+#changeTypeMenu-FuTi-HEI:hover {
+	background-color: var(--colour-changeType-hover) !important;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: 100ms;
+}
+.changeTypeMenu-TypeName {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -8.5px 0 0 -7.5px;
+	height: 15px;
+	width: 15px;
+	line-height: 15px;
+	font-size: 15px;
+}
+
+
+
+
+.externalLink::after {
+	content: "⤴";
+	font-family: var(--font-hei);
+	font-weight: 400;
+	font-size: 0.66em;
+	line-height: 0.01em;
+	vertical-align: 0.5em;
+	color: #00000060;
+}
+
+
+
+/* 省略号…… */
+.ShengLyueHao {
+	font-family: var(--font-hei-biaodian) !important;
+	font-weight: 400 !important;
+	line-height: 0em;
+}
+.ShengLyueHao::before {
+	content: "\200B";
+	/* 零宽空格 */
+}
+h-char.bd-end.bd-jiya + .ShengLyueHao::before {
+	content: "";
+}
+
+/* 破折号⸺ */
+.PoZheHao {
+	/* font-family: var(--font-hei-biaodian) !important; */
+	font-weight: 400 !important;
+	font-feature-settings: "fwid";
+	line-height: 0em;
+	/* text-shadow: 0 0.02em; */
+	/* display: inline-block;
+	text-indent: 0; */
+}
+.PoZheHao::before {
+	content: "\200B";
+	/* 零宽空格 */
+}
+h-char.bd-end.bd-jiya + .PoZheHao::before {
+	content: "";
+}
+
+/* 一字线— */
+.YiZiXian {
+	/* font-family: var(--font-song-biaodian) !important; */
+	font-weight: 400 !important;
+	font-feature-settings: "fwid";
+	line-height: 0em;
+	/* text-shadow: 0 0.02em; */
+	/* transform: translateY(1rem); */
+	/* margin: -0.5rem 0; */
+}
+
+/* 半字线– */
+.BanZiXian {
+	/* font-family: var(--font-song-biaodian) !important; */
+	font-weight: 400 !important;
+	line-height: 0em;
+	/* vertical-align: 0.08em; */
+	/* margin: 0 -0.0179em; */
+}
+.BanZiXian::before {
+	content: "\FEFF";
+	/* 零宽不断行空格 */
+}
+
+/* 分隔号／ */
+.FenGeHao {
+	font-weight: 400 !important;
+	line-height: 0em;
+	/* transform: scale(0.5, 1); */
+	display: inline-block;
+	text-indent: 0;
+	/* transform: scale(0.5, 0.9); */
+	margin: 0 -0.25em;
+	/* text-shadow: 0.01em 0.018em, -0.01em -0.018em; */
+}
+
+/* 间隔号· */
+.JianGeHao {
+	font-weight: 400 !important;
+	/* font-size: 0.7em; */
+	line-height: 0em;
+	/* vertical-align: 0.15em; */
+}
+
+/* 破折号、一字线、半字线、分隔号、间隔号统一设定字体 */
+.PoZheHao, .PoZheHao h-char h-inner,
+.YiZiXian, .BanZiXian,
+.FenGeHao, .FenGeHao h-char h-inner,
+.JianGeHao, .JianGeHao h-char h-inner {
+	font-family: var(--font-song-biaodian) !important;
+	/* margin: 0% -0.14286em; */
+}
+/* em {
+	font-family: inherit;
+	font-weight: inherit;
+	line-height: 0;
+	text-decoration: wavy underline 0.05em;
+	text-decoration-style: wavy;
+	text-decoration-line: underline;
+	text-decoration-thickness: 0.05em;
+	text-underline-offset: 0.25em;
+	text-emphasis: none !important;
+} */
+/* 突出某个字词；个别字词；圆着重号 */
+em {
+	font-family: "TeShuBiaoDian", var(--font-hei);
+	font-weight: inherit;
+	line-height: 0;
+	text-emphasis-style: "\2022" !important;
+	text-emphasis-position: under;
+	/* text-emphasis: filled circle !important; */
+	text-decoration: none;
+}
+/* 语义上的重要性；字词句；三角着重号 */
+strong {
+	font-family: "TeShuBiaoDian", var(--font-hei);
+	font-weight: inherit;
+	line-height: 0;
+	text-emphasis-style: "\25B4" !important;
+	text-emphasis-position: under;
+	/* text-emphasis: filled circle !important; */
+	text-decoration: none;
+}
+
+
+
+/* 拉丁文本 */
+.Latin {
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	line-height: 1em;
+}
+/* text-justify: inter-word; */
+/* 西文齐行往词间插入间距 */
+.noAutoHyphen {
+	hyphens: manual !important;
+	-webkit-hyphens: manual !important;
+}
+
+/* 西文斜体 */
+i {
+	font-style: italic;
+}
+
+
+/* 中西文之间插入四分空 */
+h-hws::before,
+h-hws[hidden]::before {
+	/* content: " "; */
+	font-family: var(--font-code);
+	font-size: 1em;
+	letter-spacing: -0.35em;
+	line-height: 0.1em;
+}
+/* 标点挤压间距 */
+h-char.bd-jiya.bd-end::after,
+h-char.bd-jiya.bd-open::before,
+h-cs,
+h-cs[hidden] {
+	font-family: var(--font-code);
+	font-size: 1em;
+	letter-spacing: -0.1em;
+	line-height: 0em !important;
+}
+.biaodian > h-inner {
+	line-height: 0 !important;
+}
+/* h-char.bd-jiya.bd-middle.bd-consecutive{
+	letter-spacing: -0.5em;
+}
+h-char.bd-jiya.bd-middle.bd-consecutive.end-portion{
+	letter-spacing: 0em;
+} */
+/* 这些是让一些中间标点和前后括号类连用时中间不要有空白的 */
+h-char.bd-jiya.bd-middle.bd-consecutive
+	+ h-char.bd-jiya.bd-open.bd-consecutive.end-portion::before,
+.sideNote + h-char.bd-jiya.bd-open.bd-consecutive.end-portion::before,
+.JianGeHao + h-char.bd-jiya.bd-open.bd-consecutive.end-portion::before,
+.FenGeHao + h-char.bd-jiya.bd-open.bd-consecutive.end-portion::before,
+.BanZiXian + h-char.bd-jiya.bd-open.bd-consecutive.end-portion::before,
+.YiZiXian + h-char.bd-jiya.bd-open.bd-consecutive.end-portion::before,
+span.tabulation + h-char.bd-jiya.bd-open.bd-consecutive.end-portion::before {
+	/* margin-left: -0.5em; */
+	content: "";
+}
+h-char.bd-consecutive[unicode="b7"]:not(.end-portion),
+h-char.bd-consecutive[unicode="30fb"]:not(.end-portion) {
+	letter-spacing: 0;
+}
+

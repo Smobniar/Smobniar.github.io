@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://smobniar.github.io/</loc>
-    <lastmod>2026-11-15T20:47:36+08:00</lastmod>
+    <lastmod>2026-11-16T14:19:28+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -17,6 +17,15 @@
     <lastmod>2026-11-15T20:38:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://smobniar.github.io/post/yu-liang-duo-ping-ji-he-david-bowie/</loc>
+    <lastmod>2020-10-31T18:00:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://smobniar.github.io/post-images/yu-liang-duo-ping-ji-he-david-bowie.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smobniar.github.io/post/717/</loc>
@@ -40,6 +49,15 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://smobniar.github.io/post-images/di-ren-jiu-zai-ben-neng-si.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://smobniar.github.io/post/748/</loc>
+    <lastmod>2019-10-22T07:49:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://smobniar.github.io/post-images/748.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -67,6 +85,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://smobniar.github.io/post/blog-de-rss/</loc>
+    <lastmod>2019-08-30T20:59:34+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://smobniar.github.io/post/549/</loc>
     <lastmod>2019-08-30T17:50:26+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -75,6 +99,12 @@
   <url>
     <loc>https://smobniar.github.io/post/712/</loc>
     <lastmod>2019-08-22T19:13:14+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://smobniar.github.io/post/xue-hui-shi-yong-zheng-que-ci-hui-lai-biao-da/</loc>
+    <lastmod>2019-08-20T15:22:11+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -122,25 +152,25 @@
   </url>
   <url>
     <loc>https://smobniar.github.io/post/</loc>
-    <lastmod>2026-11-15T20:47:36+08:00</lastmod>
+    <lastmod>2026-11-16T14:19:28+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smobniar.github.io/tags/</loc>
-    <lastmod>2026-11-15T20:47:36+08:00</lastmod>
+    <lastmod>2026-11-16T14:19:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://smobniar.github.io/archives/</loc>
-    <lastmod>2026-11-15T20:47:36+08:00</lastmod>
+    <lastmod>2026-11-16T14:19:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://smobniar.github.io/links/</loc>
-    <lastmod>2026-11-15T20:47:36+08:00</lastmod>
+    <lastmod>2026-11-16T14:19:28+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
