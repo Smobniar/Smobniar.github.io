@@ -297,6 +297,16 @@
 	}
 }
 
+/* == 首页年份标题居中 ==
+   原作的分类/年份标题是右对齐的（列宽只有 6rem，靠右贴住分隔线）。
+   本站首页的年份标题是整行居中排布的，所以改成居中对齐；
+   同时 .classificationContainer 在窄屏（≤840px）会变成 width:5.4rem，
+   这里一并覆盖，保证各档断点下年份都落在分隔线缺口的正中。 */
+#mainContent .classificationContainer h2,
+#mainContent section > h2 {
+	text-align: center;
+}
+
 /* == 段首缩进改为「空一格」==
    原作 u-Typography-articles.css 里写作 p { text-indent: 3rem }，即缩进三个字宽，
    观感上是空四格。这里按站主要求改成缩进一个字宽（1rem = 20px）。
